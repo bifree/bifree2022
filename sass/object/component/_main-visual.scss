@@ -1,0 +1,38 @@
+.main-visual {
+    position: relative;
+    width: 100%;
+    .main-visual__img1, .main-visual__img2 {
+        width: 100%;
+        height: calc(100vh - 80px);
+    }
+    .main-visual__img1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        animation-name: slide;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    } 
+    .main-visual__img2 {
+        object-position: left;
+    } 
+    img {
+        max-width: 100%;
+        vertical-align: top;
+        object-fit: cover;
+    }
+}
+
+@keyframes slide {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+    }

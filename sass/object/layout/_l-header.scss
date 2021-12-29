@@ -1,0 +1,92 @@
+.l-header {
+    width: 100%;
+    .container {
+        background-color: #FFF;
+        box-shadow: 0 3px 6px #00000029;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        z-index: 99;
+        .logo {
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 140px;
+                display: block;
+            }
+        }
+        @media screen and (max-width:767px) {
+            .navbtn {
+                position: relative;
+                z-index: 10;
+                justify-content: center;
+                display: flex;
+                right: 0;
+                width: 50px;
+                height: 80px;
+                margin-left: auto;
+                box-sizing: border-box;
+                background-color: $main-color;
+                border: none;
+                cursor: pointer;
+                &.active {
+                    position: fixed;
+                    background-color: #FFF;
+                    .navbtn_txt_close {
+                        position: absolute;
+                        color: #0c2e5a;
+                        font-size: 10px;
+                        bottom: 5px;
+                    }
+                    i {
+                        background-color: $main-color;
+                        &:nth-child(1) {
+                            transform: translateY(9px) rotate(-45deg);
+                        }
+                        &:nth-child(2) {
+                            opacity: 0;
+                        }
+                        &:nth-child(3) {
+                            transform: translateY(-8px) rotate(45deg);
+                        }
+                    }
+                }
+                .navbtn_txt_menu {
+                    position: absolute;
+                    color: #FFF;
+                    font-size: 10px;
+                    bottom: 5px;
+                }
+                .navbtn_txt_close {
+                    font-size: 10px;
+                    color: transparent;
+                }
+                i {
+                    display: block;
+                    width: 30px;
+                    height: 3px;
+                    background-color: #FFF;
+                    position: absolute;
+                    transition: transform 0.5s, opacity 0.5s;
+                    &:nth-child(1) {
+                        top: 25px;
+                    }
+                    &:nth-child(2) {
+                        top: -10px;
+                        bottom: 0;
+                        margin: auto;
+                    }
+                    &:nth-child(3) {
+                        bottom: 35px;
+                    }
+                }
+            }
+        }
+    }
+}

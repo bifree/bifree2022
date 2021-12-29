@@ -1,120 +1,70 @@
-// ローディング判定
-jQuery(function ($) {
-jQuery(window).on("load", function() {
-	jQuery("body").attr("data-loading", "true");
+//メイン キャッチコピー
+$(function() {
+	if (window.matchMedia( '(min-width: 801px)' ).matches) {
+	$(function(){
+	var scrollStart = $('.main-visual').offset().top; //ページ上部からの距離を取得
+	var scrollEnd = $('.about').offset().top; //ページ上部からの距離を取得
+	var distance = 0;
+	
+	$(document).scroll(function(){
+		distance = $(this).scrollTop(); //スクロールした距離を取得
+	
+		if (scrollStart <= distance) { //スクロール距離が『.catch-copy』の位置を超えたら
+		$('.catch-copy').addClass('fixed'); //class『fixed』を追加
+		} else { //スクロールがページ上部まで戻ったら
+		$('.catch-copy').removeClass('fixed'); //class『fixed』を削除
+		}
+	
+		if (scrollEnd + 95 <= distance) { //スクロール距離が『.about』の位置を超えたら
+		$('.catch-copy').addClass('stop'); //class『stop』を追加
+		} else{
+		$('.catch-copy').removeClass('stop'); //『.about』より上部に戻ったらclass『stop』を削除
+		}
+	});      
+	});
+}
 });
 
-jQuery(function() {
-	// スクロール判定
-	jQuery(window).on("scroll", function() {
-		if (100 < jQuery(this).scrollTop()) {
-			jQuery("body").attr("data-scroll", "true");
+// メイン キャッチコピー背景
+$(function() {
+		if (window.matchMedia( '(min-width: 801px)' ).matches) {
+		$(document).ready(function(){
+			$(window).on("scroll", function() {
+			if ($(this).scrollTop() > 230) {
+				$(".catch-copy__back").fadeOut("slow");
+			} else {
+				$(".catch-copy__back").fadeIn("slow");
+			}
+			});  
+		});
+		}
+	});
+
+// メイン キャッチコピー背景SP
+$(function() {
+	if (window.matchMedia( '(max-width: 800px)' ).matches) {
+	$(document).ready(function(){
+	$(window).on("scroll", function() {
+		if ($(this).scrollTop() > 550) {
+		$(".catch-copy__back").fadeOut("slow");
 		} else {
-			jQuery("body").attr("data-scroll", "false");
+		$(".catch-copy__back").fadeIn("slow");
 		}
+	});  
 	});
+}
+});
 
-	/* ドロワー */
-	jQuery(".js-drawer").on("click", function(e) {
-		e.preventDefault();
-		let targetClass = jQuery(this).attr("data-target");
-		jQuery("." + targetClass).toggleClass("is-checked");
-		return false;
-	});
+// ヘッダーハンバーガーメニュー
 
-	/* スムーススクロール */
-	jQuery('a[href^="#"]').click(function() {
-		let header = jQuery(".js-header").height();
-		let speed = 300;
-		let id = jQuery(this).attr("href");
-		let target = jQuery("#" == id ? "html" : id);
-		let position = jQuery(target).offset().top - header;
-		if ("fixed" !== jQuery("#header").css("position")) {
-			position = jQuery(target).offset().top;
-		}
-		if (0 > position) {
-			position = 0;
-		}
-		jQuery("html, body").animate(
-			{
-				scrollTop: position
-			},
-			speed
-		);
-		return false;
-	});
+$(function() {
+	$('.navbtn').click(function() {
+		$(this).toggleClass('active');
 
-	/* 電話リンク */
-	let ua = navigator.userAgent;
-	if (ua.indexOf("iPhone") < 0 && ua.indexOf("Android") < 0) {
-		jQuery('a[href^="tel:"]')
-			.css("cursor", "default")
-			.on("click", function(e) {
-				e.preventDefault();
-			});
+	if ($(this).hasClass('active')) {
+		$('.header_container__nav').addClass('active');
+	} else {
+		$('.header_container__nav').removeClass('active');
 	}
 });
 });
-
-'use strict';
-
-// ページトップボタン
-$(function () {
-  const topBtn = $(".page-top");
-  topBtn.hide();
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
-      topBtn.fadeIn();
-    } else {
-      topBtn.fadeOut();
-    }
-  });
-  topBtn.click(function () {
-    $("body,html").animate(
-      {
-        scrollTop: 0,
-      },
-      500
-    );
-    return false;
-  });
-});
-
-
-// ハンバーガーメニュー
-{
-  const open=document.getElementById('open');
-  const overlay=document.querySelector('.sp-menu');
-  const close=document.getElementById('close');
-  const header=document.querySelector('.header-top');
-  const menu=document.querySelector('.sp-menu__list');
- 
-
-  open.addEventListener('click',()=>{
-    overlay.classList.add('show');
-    open.classList.add('hide');
-    close.classList.remove('hide');
-  });
-
-
-  close.addEventListener('click',()=>{
-    overlay.classList.remove('show');
-    open.classList.remove('hide');
-    close.classList.add('hide');
-  });
-
-  
-  header.addEventListener('click',()=>{
-    overlay.classList.remove('show');
-    open.classList.remove('hide');
-    close.classList.add('hide');
-  });
-  
-  menu.addEventListener('click',()=>{
-    overlay.classList.remove('show');
-    open.classList.remove('hide');
-    close.classList.add('hide');
-  });
-}
-
-

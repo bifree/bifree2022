@@ -1,0 +1,25 @@
+.catch-copy {
+    text-align: center;
+    width: 53%;
+    position: absolute;
+    top: 38%;
+    left: 0%;
+    .catch-copy__ja {
+        font-size: 3.9vw;
+        color: #0C2E5A;
+        padding: 33px 9.9vh 30px;
+        font-family: "Noto Sans JP", sans-serif;
+        line-height: 1.4;
+        .wo {
+            font-size: 3.6vw;
+        }
+        &__back {
+            background-color: rgba(255, 230, 33, 0.8);
+        }
+    }
+    .catch-copy__en {
+        font-size: 1.5vw;
+        color: $main-color;
+        padding: 10px 14.8vw;
+    }
+}
