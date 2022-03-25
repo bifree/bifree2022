@@ -1063,6 +1063,10 @@ p {
 	width: 50%;
 }
 
+.top-service__list_title {
+	padding-left: 10px;
+}
+
 .top-service__list_title .service_title_en {
 	font-size: 1vw;
 }
@@ -1172,6 +1176,47 @@ p {
 
 @media screen and (max-width: 768px) {
 
+.footer_inner_sns__text {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer_inner_sns__logo a {
+	display: block;
+	margin: 0 auto;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.footer_inner_nav {
+	width: 100%;
+}
+
+.footer_inner_nav ul {
+	display: block;
+}
+
+.footer_inner_nav ul li {
+	margin-bottom: 30px;
+}
+
+.footer_cright p {
+	font-size: 3vw;
+}
+
+.header .header__nav_test {
+	display: none;
+}
+
+.wpcf7-textarea {
+	width: 100%;
+}
+
+input.wpcf7-text {
+	width: 100%;
+}
+
 .top-btn {
 	display: none;
 }
@@ -1180,8 +1225,39 @@ p {
 	width: 90%;
 }
 
+._flex {
+	display: block;
+}
+
 .sp-block {
 	display: block;
+}
+
+.catch-copy {
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	width: 100%;
+}
+
+.catch-copy__ja {
+	font-size: 36px !important;
+	padding: 20px 0 !important;
+}
+
+.catch-copy__en {
+	font-size: 12px !important;
+	padding: 10px 0 !important;
+}
+
+.catch-copy.fixed__sp {
+	bottom: -50px;
+	position: fixed;
+}
+
+.catch-copy.fixed__sp.stop__sp {
+	position: absolute;
+	top: calc(30vh + 250px);
 }
 
 .main_visual_pc {
@@ -1190,6 +1266,78 @@ p {
 
 .main_visual_sp {
 	display: block;
+}
+
+.top-about_us {
+	margin: 0 0 100px;
+	width: 100%;
+}
+
+.top-archive__wrapper-item {
+	margin: 0 auto 30px;
+	width: 80%;
+}
+
+.top-contact ._container .top-form {
+	width: 90%;
+}
+
+.top-service ._container {
+	width: 100% !important;
+}
+
+.top-service__list_number {
+	font-size: 23px;
+	padding: 13px 10px 10px 0;
+}
+
+.top-service__list_text {
+	padding: 20px;
+	width: 75%;
+}
+
+.top-service__list_title .service_title_ja {
+	font-size: 23px !important;
+}
+
+.top-service__list_title .service_title_en {
+	font-size: 14px !important;
+}
+
+.top-service__list_web .top-service__list_text::before,
+.top-service__list_media .top-service__list_text::before,
+.top-service__list_edu .top-service__list_text::before {
+	height: 135%;
+	left: -22%;
+	top: -27%;
+	width: 110%;
+	z-index: -2;
+}
+
+.top-service__list_web .top-service__list_text::after,
+.top-service__list_media .top-service__list_text::after,
+.top-service__list_edu .top-service__list_text::after {
+	height: 250px;
+	left: 77%;
+	top: -220px;
+	transform: translateX(-100%);
+	width: 111%;
+	z-index: -1;
+}
+
+.company_inner table.company_table {
+	margin: 0 auto 30px;
+}
+
+.company_map {
+	margin: 0 auto;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.company_map iframe {
+	width: 100%;
 }
 
 }

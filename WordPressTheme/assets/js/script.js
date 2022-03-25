@@ -27,6 +27,31 @@ $(function() {
 	}
 });
 
+// メイン キャッチコピーSP
+$(function() {
+	if (window.matchMedia( '(max-width: 800px)' ).matches) {
+	$(function(){
+	var distance = 0;
+	
+	$(document).scroll(function(){
+		distance = $(this).scrollTop(); //スクロールした距離を取得
+	
+		if (0 < distance) { //スクロール距離が0を超えたら
+		$('.catch-copy').addClass('fixed__sp'); //class『fixed__sp』を追加
+		} else {
+		$('.catch-copy').removeClass('fixed__sp'); //class『fixed__sp』を削除
+		}
+	
+		if (350 <= distance) { //スクロール距離が『.about』の位置を超えたら
+		$('.catch-copy').addClass('stop__sp'); //class『stop__sp』を追加
+		} else{
+		$('.catch-copy').removeClass('stop__sp'); //『.about』より上部に戻ったらclass『stop__sp』を削除
+		}
+	});      
+	});
+}
+});
+
 // メイン キャッチコピー背景
 $(function() {
 		if (window.matchMedia( '(min-width: 801px)' ).matches) {

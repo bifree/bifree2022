@@ -20,6 +20,9 @@ p {
 
 ._flex {
     display: flex;
+    @media screen and (max-width:768px) {
+        display: block;
+    }
 }
 
 .sp-block {
@@ -91,6 +94,26 @@ p {
         padding: 10px 14.8vw;
         &__back {
             background: rgba(255, 255, 255, 0.8);
+        }
+    }
+    @media screen and (max-width:768px) {
+        width: 100%;
+        height: fit-content;
+        &__ja {
+            font-size: 36px !important;
+            padding: 20px 0 !important;
+        }
+        &__en {
+            font-size: 12px !important;
+            padding: 10px 0 !important;
+        }
+        &.fixed__sp {
+            position: fixed;
+            bottom: -50px;
+            &.stop__sp {
+                position: absolute;
+                top: calc(30vh + 250px);
+            }
         }
     }
 }
@@ -185,6 +208,10 @@ p {
         width: 40vw;
         margin: 0 20px 160px 50%;
         line-height: 1.7;
+        @media screen and (max-width: 768px) {
+            margin: 0 0 100px;
+            width: 100%;
+        }
     }
 }
 
@@ -218,6 +245,10 @@ p {
                     width: 100%;
                 }
             }
+            @media screen and (max-width:768px) {
+                width: 80%;
+                margin: 0 auto 30px;
+            }
         }
     }
 }
@@ -233,6 +264,9 @@ p {
         .top-form {
             margin: 50px auto;
             width: 500px;
+            @media screen and (max-width:768px) {
+                width: 90%;
+            }
         }
     }
 }
@@ -242,6 +276,11 @@ p {
     opacity: 0;
     transform: translate(0, 150px);
     transition: all 1500ms;
+    @media screen and (max-width:768px) {
+        ._container {
+            width: 100% !important;
+        }
+    }
     &.services-scroll {
         opacity: 1;
         transform: translate(0,0);
@@ -272,6 +311,10 @@ p {
             font-size: 2vw;
             padding: 16px 10px 10px 0;
             border-right: solid 2px #FFF;
+            @media screen and (max-width:768px) {
+                font-size: 23px;
+                padding: 13px 10px 10px 0;
+            }
         }
         &_text {
             margin-left: auto;
@@ -280,8 +323,13 @@ p {
             position: relative;
             background: rgba(12, 46, 90, 0.9);
             width: 50%;
+            @media screen and (max-width:768px) {
+                width: 75%;
+                padding: 20px;
+            }
         }
         &_title {
+            padding-left: 10px;
             .service_title {
                 &_en {
                     font-size: 1vw;
@@ -289,6 +337,14 @@ p {
                 &_ja {
                     font-size: 2vw;
                     padding-top: 10px;
+                }
+                @media screen and (max-width:768px) {
+                    &_ja {
+                        font-size: 23px !important;
+                    }
+                    &_en {
+                        font-size: 14px !important;
+                    }
                 }
             }
         }
@@ -375,6 +431,27 @@ p {
                 }
             }
         }
+        @media screen and (max-width:768px) {
+            &_web .top-service__list_text::before,
+            &_media .top-service__list_text::before,
+            &_edu .top-service__list_text::before {
+                width: 110%;
+                height: 135%;
+                top: -27%;
+                left: -22%;
+                z-index: -2;
+            }
+            &_web .top-service__list_text::after,
+            &_media .top-service__list_text::after,
+            &_edu .top-service__list_text::after {
+                width: 111%;
+                height: 250px;
+                top: -220px;
+                left: 77%;
+                transform: translateX(-100%);
+                z-index: -1;
+            }
+        }
     }
 }
 
@@ -392,6 +469,18 @@ p {
                         padding: 10px 0;
                     }
                 }
+            }
+            @media screen and (max-width:768px) {
+                margin: 0 auto 30px;
+            }
+        }
+    }
+    @media screen and (max-width:768px) {
+        &_map {
+            width: fit-content;
+            margin: 0 auto;
+            iframe {
+                width: 100%;
             }
         }
     }

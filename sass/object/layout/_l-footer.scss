@@ -12,6 +12,10 @@
             &__text {
                 font-size: 13px;
                 display: inline-flex;
+                @media screen and (max-width:768px) {
+                    text-align: center;
+                    margin: 0 auto;
+                }
             }
             &__logo {
                 img {
@@ -20,6 +24,13 @@
                     border: 3px solid #FFF;
                     border-radius: 50%;
                     margin-right: 40px;
+                }
+                @media screen and (max-width:768px) {
+                    a {
+                        display: block;
+                        margin: 0 auto;
+                        width: fit-content;
+                    }
                 }
             }
             &__follow {
@@ -52,12 +63,24 @@
                     }
                 }
             }
+            @media screen and (max-width:768px) {
+                width: 100%;
+                ul {
+                    display: block;
+                    li {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
         }
     }
     &_cright {
         padding: 10px 0;
         p {
             font-size: 14px;
+            @media screen and (max-width:768px) {
+                font-size: 3vw;
+            }
         }
     }
 }
