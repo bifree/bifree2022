@@ -6,7 +6,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual1sp.png" alt="トップ画像" class="main_visual__img1_sp main_visual_sp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual2sp.png" alt="トップ画像" class="main_visual__img2_sp main_visual_sp">
             <div class="main_catch">
-                <div class="main_catch__jp">
+                <div class="main_catch__ja">
                     ”あなたらしさ”<span class="wo">を</span><br>
                     応援したい
                 </div>
@@ -58,7 +58,7 @@
                                     <h3 class="service_title_ja">ウェブ制作</h3>
                                 </div>
                             </div>
-                            <p class="_justify">
+                            <p class="_justify top-service__list_p">
                                 LGBTQ当事者の雇用をもっと促進したい…その為のきっかけとなるべく始めたこの事業は、今やBifreeの根幹を大きく担っています。クライアントからのヒアリングを重視し、それを黙々と形にする、地味ですがとてもやりがいのある業務です。個人でなく、組織で行っているからこそのスピード感と、柔軟性は日々磨きをかけているところです。
                             </p>
                         </div>
@@ -74,7 +74,7 @@
                                     <h3 class="service_title_ja">メディア運営</h3>
                                 </div>
                             </div>
-                            <p class="_justify">
+                            <p class="_justify top-service__list_p">
                                 登録者数600人に迫る「じゃらんじゃらんちゃんねる」ではLGBTQ当事者へのインタビューをメインに行っており、「LGBTQ当事者はどこにでもいる、当たり前の存在なんだ」とみなさまに知っていただくきっかけ作りを行っています。RPAの技術やPremiere
                                 Proを使っての編集がメインです。現状、動画制作の受託案件は承っておりません。
                             </p>
@@ -91,7 +91,7 @@
                                     <h3 class="service_title_ja">LGBT啓蒙活動</h3>
                                 </div>
                             </div>
-                            <p class="_justify">
+                            <p class="_justify top-service__list_p">
                                 Bifreeでは活動で得た収益の一部を、毎月LGBTQ関係の支援団体様へ寄付しております。他、ニーズがあれば当事者による講演会や勉強会・その出演も承っておりますのでお声掛けください。これから先、更に多くの人に「特別な存在でないこと」を発信していければと考えております。
                             </p>
                         </div>
@@ -146,7 +146,10 @@
                     新着記事
                 </p>
             </div>
-            <div class="swiper-container">
+            <div class="_container">
+                <p class="bigger _center">ただいま準備中</p>
+            </div>
+            <!-- <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <?php
                     $args = array (
@@ -177,7 +180,7 @@
                         wp_reset_postdata();
                     ?>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section class="top-contact" id="contact">
             <div class="sec-title sec-title_contact">
@@ -238,5 +241,10 @@
                 </div>
             </div>
         </section>
+        <div class="_container">
+        <a class="top-btn" href="#">
+            <img class="top-btn__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/top-btn.png">
+        </a>
+        </div>
     </main>
 <?php get_footer(); ?>

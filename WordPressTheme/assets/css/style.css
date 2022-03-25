@@ -458,6 +458,7 @@ input.wpcf7-submit {
 	font-size: 1.2rem;
 	height: 250px;
 	line-height: 2rem;
+	margin-top: 5px;
 	width: 600px;
 }
 
@@ -466,6 +467,7 @@ input.wpcf7-text {
 	border: 2px solid #0c2e5a;
 	height: 2rem;
 	line-height: 2rem;
+	margin-top: 5px;
 }
 
 .screen-reader-response {
@@ -750,6 +752,15 @@ select {
 	width: 60px;
 }
 
+.top-btn__img {
+	height: 60px;
+	width: 60px;
+}
+
+.top-btn:hover {
+	opacity: 0.7;
+}
+
 .service .title h2 {
 	font-size: 45px;
 }
@@ -829,7 +840,7 @@ p {
 	background-color: rgba(255, 230, 33, 0.8);
 }
 
-.main_catch__jp {
+.main_catch__ja {
 	color: #0c2e5a;
 	font-family: "Noto Sans JP", sans-serif;
 	font-size: 3.9vw;
@@ -837,11 +848,11 @@ p {
 	padding: 33px 9.9vh 30px;
 }
 
-.main_catch__jp .wo {
+.main_catch__ja .wo {
 	font-size: 3.6vw;
 }
 
-.main_catch__jp__back {
+.main_catch__ja__back {
 	background-color: rgba(255, 230, 33, 0.8);
 }
 
@@ -951,7 +962,7 @@ p {
 
 .top-about_us {
 	line-height: 1.7;
-	margin: 0 20px 0 50%;
+	margin: 0 20px 60px 50%;
 	width: 40vw;
 }
 
@@ -1023,6 +1034,10 @@ p {
 .top-service__list_top {
 	display: flex;
 	margin-bottom: 30px;
+}
+
+.top-service__list_p {
+	line-height: 1.7;
 }
 
 .top-service__list_number {
@@ -1148,6 +1163,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+
+.top-btn {
+	display: none;
+}
 
 ._container {
 	width: 90%;

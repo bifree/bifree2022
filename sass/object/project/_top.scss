@@ -71,7 +71,7 @@ p {
     &__back {
         background-color: rgba(255, 230, 33, 0.8);
     }
-    &__jp {
+    &__ja {
         font-size: 3.9vw;
         font-family: "Noto Sans JP", sans-serif;
         color: #0c2e5a;
@@ -183,7 +183,7 @@ p {
     }
     &_us {
         width: 40vw;
-        margin: 0 20px 0 50%;
+        margin: 0 20px 60px 50%;
         line-height: 1.7;
     }
 }
@@ -257,6 +257,9 @@ p {
         &_top {
             display: flex;
             margin-bottom: 30px;
+        }
+        &_p {
+            line-height: 1.7;
         }
         &_number {
             font-size: 2vw;
