@@ -1,25 +1,26 @@
 <?php get_header(); ?>
     <main>
-        <div class="main_visual">
+        <div class="main-visual">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual1.png" alt="トップ画像" class="main_visual__img1 main_visual_pc">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual2.png" alt="トップ画像" class="main_visual__img2 main_visual_pc">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual1sp.png" alt="トップ画像" class="main_visual__img1_sp main_visual_sp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main-visual2sp.png" alt="トップ画像" class="main_visual__img2_sp main_visual_sp">
-            <div class="main_catch">
-                <div class="main_catch__ja">
+            <div class="catch-copy">
+                <div class="catch-copy__ja">
                     ”あなたらしさ”<span class="wo">を</span><br>
                     応援したい
                 </div>
-                <div class="main_catch__en">
+                <div class="catch-copy__en">
                     We want to support your personality
                 </div>
             </div>
-            <div class="main_catch main_catch__back">
-                <div class="main_catch__ja main_catch__ja__back">
+            <div class="top-about-stopper"></div>
+            <div class="catch-copy catch-copy__back">
+                <div class="catch-copy__ja catch-copy__ja__back">
                     “あなたらしさ”  <span class="wo">を</span><br>
                     応援したい
                 </div>
-                <div class="main_catch__en main_catch__en__back">
+                <div class="catch-copy__en catch-copy__en__back">
                     We want to support your personality
                 </div>
             </div>

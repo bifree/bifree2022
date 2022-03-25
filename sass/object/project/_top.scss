@@ -53,20 +53,20 @@ p {
     }
 }
 
-.main_catch {
+.catch-copy {
     text-align: center;
     width: 53%;
     position: absolute;
     top: 38%;
     left: 0%;
-    &.stop {
-        position: absolute;
-        top: calc(100vh + 280px);
-    }
     &.fixed {
         position: fixed;
         top: 34%;
         left: 0;
+        &.stop {
+            position: absolute;
+            top: calc(100vh + 120px);
+        }
     }
     &__back {
         background-color: rgba(255, 230, 33, 0.8);
@@ -183,7 +183,7 @@ p {
     }
     &_us {
         width: 40vw;
-        margin: 0 20px 60px 50%;
+        margin: 0 20px 160px 50%;
         line-height: 1.7;
     }
 }
@@ -239,6 +239,13 @@ p {
 
 .top-service {
     padding-bottom: 100px;
+    opacity: 0;
+    transform: translate(0, 150px);
+    transition: all 1500ms;
+    &.services-scroll {
+        opacity: 1;
+        transform: translate(0,0);
+    }
     .sec-title {
         &__jp {
             border-bottom: 5px solid #ffe621;

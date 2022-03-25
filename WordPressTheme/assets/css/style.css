@@ -817,7 +817,7 @@ p {
 	display: none;
 }
 
-.main_catch {
+.catch-copy {
 	left: 0%;
 	position: absolute;
 	text-align: center;
@@ -825,22 +825,22 @@ p {
 	width: 53%;
 }
 
-.main_catch.stop {
-	position: absolute;
-	top: calc(100vh + 280px);
-}
-
-.main_catch.fixed {
+.catch-copy.fixed {
 	left: 0;
 	position: fixed;
 	top: 34%;
 }
 
-.main_catch__back {
+.catch-copy.fixed.stop {
+	position: absolute;
+	top: calc(100vh + 120px);
+}
+
+.catch-copy__back {
 	background-color: rgba(255, 230, 33, 0.8);
 }
 
-.main_catch__ja {
+.catch-copy__ja {
 	color: #0c2e5a;
 	font-family: "Noto Sans JP", sans-serif;
 	font-size: 3.9vw;
@@ -848,22 +848,22 @@ p {
 	padding: 33px 9.9vh 30px;
 }
 
-.main_catch__ja .wo {
+.catch-copy__ja .wo {
 	font-size: 3.6vw;
 }
 
-.main_catch__ja__back {
+.catch-copy__ja__back {
 	background-color: rgba(255, 230, 33, 0.8);
 }
 
-.main_catch__en {
+.catch-copy__en {
 	color: #0c2e5a;
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5vw;
 	padding: 10px 14.8vw;
 }
 
-.main_catch__en__back {
+.catch-copy__en__back {
 	background: rgba(255, 255, 255, 0.8);
 }
 
@@ -962,7 +962,7 @@ p {
 
 .top-about_us {
 	line-height: 1.7;
-	margin: 0 20px 60px 50%;
+	margin: 0 20px 160px 50%;
 	width: 40vw;
 }
 
@@ -1014,7 +1014,15 @@ p {
 }
 
 .top-service {
+	opacity: 0;
 	padding-bottom: 100px;
+	transform: translate(0, 150px);
+	transition: all 1500ms;
+}
+
+.top-service.services-scroll {
+	opacity: 1;
+	transform: translate(0, 0);
 }
 
 .top-service .sec-title__jp {

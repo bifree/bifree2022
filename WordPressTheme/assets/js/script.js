@@ -3,28 +3,28 @@
 //メイン キャッチコピー
 $(function() {
 	if (window.matchMedia( '(min-width: 801px)' ).matches) {
-	$(function(){
-	var scrollStart = $('.main_visual').offset().top; //ページ上部からの距離を取得
-	var scrollEnd = $('.about').offset().top; //ページ上部からの距離を取得
-	var distance = 0;
-	
-	$(document).scroll(function(){
-		distance = $(this).scrollTop(); //スクロールした距離を取得
-	
-		if (scrollStart <= distance) { //スクロール距離が『.main_catch』の位置を超えたら
-		$('.main_catch').addClass('fixed'); //class『fixed』を追加
-		} else { //スクロールがページ上部まで戻ったら
-		$('.main_catch').removeClass('fixed'); //class『fixed』を削除
-		}
-	
-		if (scrollEnd + 95 <= distance) { //スクロール距離が『.about』の位置を超えたら
-		$('.main_catch').addClass('stop'); //class『stop』を追加
-		} else{
-		$('.main_catch').removeClass('stop'); //『.about』より上部に戻ったらclass『stop』を削除
-		}
-	});      
+		$(function(){
+		var scrollStart = $('.main-visual').offset().top; //ページ上部からの距離を取得
+		var scrollEnd = $('.top-about-stopper').offset().top; //ページ上部からの距離を取得
+		var distance = 0;
+		
+		$(document).scroll(function(){
+		  distance = $(this).scrollTop(); //スクロールした距離を取得
+		
+		  if (scrollStart <= distance) { //スクロール距離が『.catch-copy』の位置を超えたら
+			$('.catch-copy').addClass('fixed'); //class『fixed』を追加
+		  } else { //スクロールがページ上部まで戻ったら
+			$('.catch-copy').removeClass('fixed'); //class『fixed』を削除
+			}
+		
+		  if (scrollEnd - 40 <= distance) { //スクロール距離が『.about』の位置を超えたら
+			$('.catch-copy').addClass('stop'); //class『stop』を追加
+			} else{
+			$('.catch-copy').removeClass('stop'); //『.top-about』より上部に戻ったらclass『stop』を削除
+			}
+		});      
 	});
-}
+	}
 });
 
 // メイン キャッチコピー背景
@@ -33,14 +33,14 @@ $(function() {
 		$(document).ready(function(){
 			$(window).on("scroll", function() {
 			if ($(this).scrollTop() > 230) {
-				$(".main_catch__back").fadeOut("slow");
+				$(".catch-copy__back").fadeOut("slow");
 			} else {
-				$(".main_catch__back").fadeIn("slow");
+				$(".catch-copy__back").fadeIn("slow");
 			}
 			});  
 		});
-		}
-	});
+	}
+});
 
 // メイン キャッチコピー背景SP
 $(function() {
@@ -48,13 +48,13 @@ $(function() {
 	$(document).ready(function(){
 	$(window).on("scroll", function() {
 		if ($(this).scrollTop() > 550) {
-		$(".catch-copy__back").fadeOut("slow");
-		} else {
-		$(".catch-copy__back").fadeIn("slow");
-		}
-	});  
-	});
-}
+				$(".catch-copy__back").fadeOut("slow");
+				} else {
+				$(".catch-copy__back").fadeIn("slow");
+				}
+			});  
+		});
+	}
 });
 
 // ヘッダーハンバーガーメニュー
@@ -117,4 +117,20 @@ $(function() {
 		});
 	});
 	}
+});
+
+//メイン サービス
+$(function () {
+	$(window).scroll(function () {
+	$(".top-service").each(function () {
+		var elemPos = $(this).offset().top; //要素の位置を取得 
+		var scroll = $(window).scrollTop(); //スクロール位置を取得 */
+		var windowHeight = $(window).height(); //画面幅を取得（画面の下側に入ったときに動作させるため） 
+		if (scroll > elemPos - windowHeight) {
+		  //要素位置までスクロール出来たときに動作する 
+			$(this).addClass("services-scroll");
+		}
+		});
+	});
+	jQuery(window).scroll();
 });
