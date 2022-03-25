@@ -53,6 +53,35 @@ p {
     }
 }
 
+.main_catch {
+    text-align: center;
+    width: 53%;
+    position: absolute;
+    top: 38%;
+    left: 0%;
+    &__jp {
+        font-size: 3.9vw;
+        font-family: "Noto Sans JP", sans-serif;
+        color: #0c2e5a;
+        padding: 33px 9.9vh 30px;
+        line-height: 1.4;
+        .wo {
+            font-size: 3.6vw;
+        }
+        &__back {
+            background-color: rgba(255, 230, 33, 0.8);
+        }
+    }
+    &__en {
+        font-size: 1.5vw;
+        font-family: "Source Sans Pro", sans-serif;
+        color: #0c2e5a;
+        padding: 10px 14.8vw;
+        &__back {
+            background: rgba(255, 255, 255, 0.8);
+        }
+    }
+}
 
 .main_visual {
     position: relative;
@@ -147,6 +176,40 @@ p {
     }
 }
 
+.top-article {
+    margin-top: 80px;
+    background: rgba(6, 141, 218, 0.05);
+    border: solid 1px rgba(6, 141, 218, 0.05);
+    padding-bottom: 80px;
+    .sec-title {
+        &__jp {
+            border-bottom: solid 5px #2A8DDA;
+        }
+    }
+}
+
+.top-archive {
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &-item {
+            border: 1px solid #ccc;
+            width: calc((100% - 90px) / 3);
+            margin-bottom: 30px;
+            a {
+                width: 100%;
+                box-sizing: border-box;
+                display: block;
+                img {
+                    vertical-align: baseline;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
 .top-contact {
     padding-bottom: 60px;
     .sec-title {
@@ -156,36 +219,158 @@ p {
     }
     ._container {
         .top-form {
-            margin: 50px 0;
+            margin: 50px auto;
+            width: 500px;
         }
     }
 }
 
 .top-service {
+    padding-bottom: 100px;
     .sec-title {
         &__jp {
             border-bottom: 5px solid #ffe621;
         }
     }
+    &_list {
+        list-style: none;
+        &_item {
+            margin-top:400px;
+            // opacity: 0;
+            transform: translate(0, 150px);
+            transition: all 1500ms;
+        }
+    }
     &__list {
+        &_top {
+            display: flex;
+            margin-bottom: 30px;
+        }
         &_number {
             font-size: 2vw;
             padding: 16px 10px 10px 0;
             border-right: solid 2px #FFF;
         }
         &_text {
+            margin-left: auto;
             color: #fff;
             padding: 40px;
             position: relative;
             background: rgba(12, 46, 90, 0.9);
             width: 50%;
         }
+        &_title {
+            .service_title {
+                &_en {
+                    font-size: 1vw;
+                }
+                &_ja {
+                    font-size: 2vw;
+                    padding-top: 10px;
+                }
+            }
+        }
         &_web {
             margin-top: 190px;
+            .top-service__list_text {
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background: rgba(248, 82, 69, 0.1);
+                    width: 162%;
+                    height: 145%;
+                    top: -21%;
+                    left: -52%;
+                    z-index: -2;
+                }
+                &::after {
+                    content: "";
+                    background-image: url("../img/web.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: right;
+                    position: absolute;
+                    width: 117%;
+                    height: 129%;
+                    top: -59%;
+                    left: -100%;
+                    z-index: -1;
+                }
+            }
         }
-        &_media {}
+        &_media {
+            .top-service__list_text {
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background: rgba(69, 176, 53, 0.1);
+                    width: 162%;
+                    height: 145%;
+                    top: -21%;
+                    left: -52%;
+                    z-index: -2;
+                }
+                &::after {
+                    content: "";
+                    background-image: url("../img/media.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: right;
+                    position: absolute;
+                    width: 117%;
+                    height: 129%;
+                    top: -59%;
+                    left: -100%;
+                    z-index: -1;
+                }
+            }
+        }
         &_edu {
             margin-bottom: 190px;
+            .top-service__list_text {
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background: rgba(255, 230, 33, 0.1);
+                    width: 162%;
+                    height: 145%;
+                    top: -21%;
+                    left: -52%;
+                    z-index: -2;
+                }
+                &::after {
+                    content: "";
+                    background-image: url("../img/lgbt.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: right;
+                    position: absolute;
+                    width: 117%;
+                    height: 129%;
+                    top: -59%;
+                    left: -100%;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
+
+.company {
+    &_inner {
+        justify-content: space-around;
+        padding-bottom: 60px;
+        table.company_table {
+            tbody {
+                tr {
+                    border-bottom: 2px solid #0c2e5a;
+                    td {
+                        line-height: 1.4;
+                        width: 200px;
+                        padding: 10px 0;
+                    }
+                }
+            }
         }
     }
 }

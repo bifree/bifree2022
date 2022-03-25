@@ -14,7 +14,15 @@
                     We want to support your personality
                 </div>
             </div>
-            <div class="main_catch"></div>
+            <div class="main_catch main_catch__back">
+                <div class="main_catch__ja main_catch__ja__back">
+                    “あなたらしさ”  <span class="wo">を</span><br>
+                    応援したい
+                </div>
+                <div class="main_catch__en main_catch__en__back">
+                    We want to support your personality
+                </div>
+            </div>
         </div>
         <section class="top-about" id="about">
             <div class="_container">
@@ -29,9 +37,6 @@
                 </div>
                 <div class="readmore__btn">
                     READ MORE
-                </div>
-                <div class="contact-btn">
-                    新メンバー募集のお知らせ
                 </div>
             </div>
         </section>
@@ -48,6 +53,10 @@
                                 <h3 class="top-service__list_number">
                                     #01
                                 </h3>
+                                <div class="top-service__list_title">
+                                    <p class="service_title_en">web production</p>
+                                    <h3 class="service_title_ja">ウェブ制作</h3>
+                                </div>
                             </div>
                             <p class="_justify">
                                 LGBTQ当事者の雇用をもっと促進したい…その為のきっかけとなるべく始めたこの事業は、今やBifreeの根幹を大きく担っています。クライアントからのヒアリングを重視し、それを黙々と形にする、地味ですがとてもやりがいのある業務です。個人でなく、組織で行っているからこそのスピード感と、柔軟性は日々磨きをかけているところです。
@@ -60,6 +69,10 @@
                                 <h3 class="top-service__list_number">
                                     #02
                                 </h3>
+                                <div class="top-service__list_title">
+                                    <p class="service_title_en">media management</p>
+                                    <h3 class="service_title_ja">メディア運営</h3>
+                                </div>
                             </div>
                             <p class="_justify">
                                 登録者数600人に迫る「じゃらんじゃらんちゃんねる」ではLGBTQ当事者へのインタビューをメインに行っており、「LGBTQ当事者はどこにでもいる、当たり前の存在なんだ」とみなさまに知っていただくきっかけ作りを行っています。RPAの技術やPremiere
@@ -67,12 +80,16 @@
                             </p>
                         </div>
                     </li>
-                    <li class="top-service_list_item service__list_edu">
+                    <li class="top-service_list_item top-service__list_edu">
                         <div class="top-service__list_text">
                             <div class="top-service__list_top">
                                 <h3 class="top-service__list_number">
                                     #03
                                 </h3>
+                                <div class="top-service__list_title">
+                                    <p class="service_title_en">lgbt awareness activities</p>
+                                    <h3 class="service_title_ja">LGBT啓蒙活動</h3>
+                                </div>
                             </div>
                             <p class="_justify">
                                 Bifreeでは活動で得た収益の一部を、毎月LGBTQ関係の支援団体様へ寄付しております。他、ニーズがあれば当事者による講演会や勉強会・その出演も承っておりますのでお声掛けください。これから先、更に多くの人に「特別な存在でないこと」を発信していければと考えております。
@@ -80,6 +97,44 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+        </section>
+        <section class="top-archive">
+            <div class="_container">
+                <div class="top-archive__wrapper">
+                    <div class="top-archive__wrapper-item">
+                        <a href="https://irodori-odori.com/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample6.png" alt="">
+                        </a>
+                    </div>
+                    <div class="top-archive__wrapper-item">
+                        <a href="https://stradtailor.com/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="top-archive__wrapper-item">
+                        <a href="https://viewty-seiyaku.com/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample4.png" alt="">
+                        </a>
+                    </div>
+
+                    <!-- <div class="top-archive__wrapper-item">
+                        <a href="https://irodori-odori.com/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="top-archive__wrapper-item">
+                        <a href="http://tau-auction.jp/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="top-archive__wrapper-item">
+                        <a href="https://viewty-seiyaku.com/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample3.png" alt="">
+                        </a>
+                    </div> -->
+
+                </div>
             </div>
         </section>
         <section class="top-article" id="article">
@@ -137,6 +192,49 @@
                 <p class="_center">仕事依頼、ご質問・ご相談など、<br class="sp-block">お気軽にお問合せください。</p>
                 <div class="top-form">
                     <?php echo do_shortcode('[contact-form-7 id="11" title="form"]');?>
+                </div>
+            </div>
+        </section>
+        <section class="company">
+            <div class="_container">
+                <div class="company_inner _flex">
+                    <table class="company_table">
+                        <tbody>
+                            <tr>
+                                <td>会社名</td>
+                                <td>合同会社Bifree</td>
+                            </tr>
+                            <tr>
+                                <td>設立</td>
+                                <td>2021年11月15日</td>
+                            </tr>
+                            <tr>
+                                <td>所在地</td>
+                                <td>東京都港区南青山2-2-15　ウィン青山942</td>
+                            </tr>
+                            <tr>
+                                <td>代表</td>
+                                <td>相原将希</td>
+                            </tr>
+                            <tr>
+                                <td>事業内容</td>
+                                <td>
+                                    ウェブサイト構築事業<br>
+                                    ウェブシステム構築事業<br>
+                                    ウェブメディア運営事業<br>
+                                    プログラマ育成事業<br>
+                                    LGBTQに関する啓蒙活動
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>取引銀行</td>
+                                <td>住信SBIネット銀行</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="company_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.229507792667!2d139.7216894156689!3d35.671350438120534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c8303ba42f3%3A0x7ef6fd05b1af933d!2z44CSMTA3LTAwNjIg5p2x5Lqs6YO95riv5Yy65Y2X6Z2S5bGx77yS5LiB55uu77yS4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1648214732215!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </section>
