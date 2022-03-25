@@ -59,6 +59,18 @@ p {
     position: absolute;
     top: 38%;
     left: 0%;
+    &.stop {
+        position: absolute;
+        top: calc(100vh + 280px);
+    }
+    &.fixed {
+        position: fixed;
+        top: 34%;
+        left: 0;
+    }
+    &__back {
+        background-color: rgba(255, 230, 33, 0.8);
+    }
     &__jp {
         font-size: 3.9vw;
         font-family: "Noto Sans JP", sans-serif;

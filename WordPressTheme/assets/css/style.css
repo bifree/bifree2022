@@ -814,6 +814,21 @@ p {
 	width: 53%;
 }
 
+.main_catch.stop {
+	position: absolute;
+	top: calc(100vh + 280px);
+}
+
+.main_catch.fixed {
+	left: 0;
+	position: fixed;
+	top: 34%;
+}
+
+.main_catch__back {
+	background-color: rgba(255, 230, 33, 0.8);
+}
+
 .main_catch__jp {
 	color: #0c2e5a;
 	font-family: "Noto Sans JP", sans-serif;
