@@ -1,0 +1,11 @@
+.footer {
+    background-color: #0c2e5a;
+    color: #FFF;
+    padding: 30px 0 0;
+    &_cright {
+        padding: 10px 0;
+        p {
+            font-size: 14px;
+        }
+    }
+}
