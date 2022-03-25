@@ -16,7 +16,7 @@
             </div>
             <div class="main_catch"></div>
         </div>
-        <section class="top-about">
+        <section class="top-about" id="about">
             <div class="_container">
                 <div class="sec-title sec-title_about">
                     <h1 class="sec-title__en">ABOUT</h1>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </section>
-        <section class="top-service">
+        <section class="top-service" id="service">
             <div class="_container">
                 <div class="sec-title sec-title_about">
                     <h1 class="sec-title__en">SERVICE</h1>
@@ -82,7 +82,7 @@
                 </ul>
             </div>
         </section>
-        <section class="top-article">
+        <section class="top-article" id="article">
             <div class="sec-title">
                 <h1 class="sec-title__en">
                     ARTICLE
@@ -91,8 +91,40 @@
                     新着記事
                 </p>
             </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <?php
+                    $args = array (
+                        'posts_per_page' => 4
+                    );
+                    $posts = get_posts($args);
+                    foreach ($posts as $post):
+                    setup_postdata( $post );
+                    ?>
+                    <div class="swiper-slide">
+                        <a href="<?php the_permalink(); ?>">
+                            <div class="article_thumnail">
+                                <?php the_post_thumbnail( 'medium' ); ?>
+                            </div>
+                            <div class="article_body">
+                                <div class="article_body_title">
+                                    <?php the_title();?>
+                                </div>
+                                <div class="article_body_time">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/time.png" alt="" class="article_body_time_img">
+                                    <time class="article_body_time_day"><?php echo get_the_date('Y.n.j'); ?></time>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <?php
+                        endforeach;
+                        wp_reset_postdata();
+                    ?>
+                </div>
+            </div>
         </section>
-        <section class="top-contact">
+        <section class="top-contact" id="contact">
             <div class="sec-title sec-title_contact">
                 <h1 class="sec-title__en">
                     CONTACT

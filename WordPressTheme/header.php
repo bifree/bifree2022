@@ -23,12 +23,20 @@
             </div>
             
             <!-- ヘッダーグローバルナビゲーション -->
-            <div class="header__nav">
+            <!-- <div class="header__nav">
                 <?php
                     wp_nav_menu( array(
                         'theme_location'=>'header-nav',
                         'container' => 'nav'
                     ));?>
+            </div> -->
+            <div class="header__nav_test">
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="#article">ARTICLE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
             </div>
             
             <!-- レスポンシブ用ハンバーガーボタン -->

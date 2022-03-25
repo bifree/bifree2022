@@ -68,3 +68,13 @@ $(function() {
 	}
 });
 });
+
+var swiper = new Swiper('.swiper-container', {
+	slidesPerView: 'auto',
+	spaceBetween: 30,
+	loop: true,
+	centeredSlides: true,
+	pagination: '.swiper-pagination',
+	autoplay: 1500,
+	disableOnInteraction: false,
+});

@@ -329,7 +329,8 @@ input[type="checkbox"]:disabled + span::before {
 }
 
 .header__logo {
-	width: 40%;
+	margin-right: auto;
+	width: 200px;
 }
 
 .header__logo img {
@@ -354,6 +355,26 @@ input[type="checkbox"]:disabled + span::before {
 	transform-origin: left top;
 	transition: transform 0.3s;
 	width: 100%;
+}
+
+.header .header__nav_test {
+	align-items: center;
+	display: flex;
+}
+
+.header .header__nav_test ul {
+	display: flex;
+	list-style: none;
+}
+
+.header .header__nav_test ul li {
+	padding: 10px 20px;
+	vertical-align: center;
+}
+
+.header .header__nav_test ul li a {
+	color: #333;
+	text-decoration: none;
 }
 
 .navBtn {

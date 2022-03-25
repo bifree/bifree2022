@@ -1,6 +1,7 @@
 .header {
     &__logo {
-        width: 40%;
+        width: 200px;
+        margin-right: auto;
         img {
             width: 100%;
         }
@@ -26,7 +27,24 @@
             }
         }
     }
+    .header__nav_test {
+        display: flex;
+        align-items: center;
+        ul {
+            list-style: none;
+            display: flex;
+            li {
+                vertical-align: center;
+                padding: 10px 20px;
+                a {
+                    text-decoration: none;
+                    color: #333;
+                }
+            }
+        }
+    }
 }
+
 
 .navBtn {
     display: none;
