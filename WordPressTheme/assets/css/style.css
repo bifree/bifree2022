@@ -786,6 +786,7 @@ select {
 }
 
 p {
+	font-family: "Noto Sans JP", sans-serif;
 	font-size: 16px;
 }
 
@@ -1176,9 +1177,18 @@ p {
 
 @media screen and (max-width: 768px) {
 
+.footer_inner_sns._flex {
+	display: flex !important;
+	flex-direction: column-reverse;
+}
+
 .footer_inner_sns__text {
 	margin: 0 auto;
 	text-align: center;
+}
+
+.footer_inner_sns__logo {
+	margin: 50px auto 40px;
 }
 
 .footer_inner_sns__logo a {
@@ -1187,6 +1197,10 @@ p {
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
+}
+
+.footer_inner_sns__follow {
+	margin: 0 auto 10px;
 }
 
 .footer_inner_nav {
@@ -1338,6 +1352,20 @@ input.wpcf7-text {
 
 .company_map iframe {
 	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 428px) {
+
+.catch-copy.fixed__sp {
+	bottom: -50px;
+	position: fixed;
+}
+
+.catch-copy.fixed__sp.stop__sp {
+	position: absolute;
+	top: calc(30vh + 100px);
 }
 
 }

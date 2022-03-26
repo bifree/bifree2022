@@ -8,6 +8,7 @@
 
 p {
     font-size: 16px;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 * {
@@ -113,6 +114,16 @@ p {
             &.stop__sp {
                 position: absolute;
                 top: calc(30vh + 250px);
+            }
+        }
+    }
+    @media screen and (max-width:428px) {
+        &.fixed__sp {
+            position: fixed;
+            bottom: -50px;
+            &.stop__sp {
+                position: absolute;
+                top: calc(30vh + 100px);
             }
         }
     }
