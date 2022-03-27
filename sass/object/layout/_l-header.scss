@@ -46,6 +46,23 @@
             display: none;
         }
     }
+    .header__nav_lang {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        ul {
+            list-style: none;
+            display: flex;
+            li {
+                border:1px solid #0c2e5a;
+                padding: 10px;
+                a {
+                    color: #0c2e5a;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
 
 

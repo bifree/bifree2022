@@ -432,6 +432,27 @@ input[type="checkbox"]:disabled + span::before {
 	text-decoration: none;
 }
 
+.header .header__nav_lang {
+	align-items: center;
+	display: flex;
+	margin-left: 20px;
+}
+
+.header .header__nav_lang ul {
+	display: flex;
+	list-style: none;
+}
+
+.header .header__nav_lang ul li {
+	border: 1px solid #0c2e5a;
+	padding: 10px;
+}
+
+.header .header__nav_lang ul li a {
+	color: #0c2e5a;
+	text-decoration: none;
+}
+
 .navBtn {
 	display: none;
 }

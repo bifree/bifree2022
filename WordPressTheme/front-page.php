@@ -36,9 +36,9 @@
                         合同会社Bifreeは2021年2月22日、LGBTQ当事者とその理解者・支援者であるアライの人々により結成された任意団体が母体です。メンバーも日本人のみならず、海外から参加をしてくれる…そんなインターナショナルな組織へと変貌も遂げました。<br>事業を展開する中で更に多くのLGBTQ当事者に限らない人々を巻き込み、全ての人がその人らしく生きていける、そんな世界を目指してこの先も邁進していきます。
                     </p>
                 </div>
-                <div class="readmore__btn">
+                <!-- <div class="readmore__btn">
                     READ MORE
-                </div>
+                </div> -->
             </div>
         </section>
         <section class="top-service" id="service">
@@ -105,17 +105,27 @@
                 <div class="top-archive__wrapper">
                     <div class="top-archive__wrapper-item">
                         <a href="https://irodori-odori.com/">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample6.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample1.jpg" alt="">
                         </a>
                     </div>
                     <div class="top-archive__wrapper-item">
                         <a href="https://stradtailor.com/">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample2.jpg" alt="">
                         </a>
                     </div>
                     <div class="top-archive__wrapper-item">
                         <a href="https://viewty-seiyaku.com/">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="top-archive__wrapper-item">
+                        <a href="https://souzokuhouki-kizuna.com/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="top-archive__wrapper-item">
+                        <a href="https://kyouseinet.com/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample5.jpg" alt="">
                         </a>
                     </div>
 
