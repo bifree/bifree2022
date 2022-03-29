@@ -128,6 +128,11 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample5.jpg" alt="">
                         </a>
                     </div>
+                    <div class="top-archive__wrapper-item">
+                        <a href="https://kyouseinet.com/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample5.jpg" alt="">
+                        </a>
+                    </div>
 
                     <!-- <div class="top-archive__wrapper-item">
                         <a href="https://irodori-odori.com/">

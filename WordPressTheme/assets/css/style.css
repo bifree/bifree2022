@@ -1011,6 +1011,7 @@ p {
 
 .top-archive__wrapper-item {
 	border: 1px solid #ccc;
+	box-shadow: 14px 13px 25px -9px #777;
 	margin-bottom: 30px;
 	width: calc((100% - 90px) / 3);
 }

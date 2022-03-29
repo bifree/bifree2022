@@ -28,6 +28,9 @@
                             <a href="https://youtube.com/channel/UCOSRAzwBWp-PacFcNTI0oKw">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/youtube_social_squircle_red.png" alt="">
                             </a>
+                            <a href="https://github.com/bifree/">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/github-icon.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
