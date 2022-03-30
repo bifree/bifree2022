@@ -320,6 +320,10 @@ input[type="checkbox"]:disabled + span::before {
 	padding: 30px 0 0;
 }
 
+.footer_inner {
+	padding-bottom: 20px;
+}
+
 .footer_inner_sns {
 	align-items: flex-end;
 	display: flex;
@@ -783,7 +787,7 @@ select {
 }
 
 .top-btn:hover {
-	opacity: 0.7;
+	background-color: #2A8DDA;
 }
 
 .service .title h2 {
@@ -829,6 +833,10 @@ p {
 
 .sp-block {
 	display: none;
+}
+
+.sp-none {
+	display: block;
 }
 
 ._justify {
@@ -1027,6 +1035,57 @@ p {
 	width: 100%;
 }
 
+.top-greet {
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-greet__img {
+	max-width: 350px;
+	width: 50%;
+}
+
+.top-greet__img img {
+	width: 100%;
+}
+
+.top-greet__text {
+	line-height: 1.4;
+	max-width: 500px;
+	width: 50%;
+}
+
+.top-greet__text p {
+	letter-spacing: 0.1em;
+}
+
+.top-greet__text .name {
+	font-size: 20px;
+	text-align: right;
+}
+
+.top-greet__text .name .mincho {
+	font-family: 'Zen Antique Soft', serif;
+}
+
+.top-greet__info {
+	letter-spacing: 0.1em;
+	line-height: 1.4;
+	margin: 0 auto;
+	padding-top: 60px;
+	width: 60%;
+}
+
+.top-greet__info .info__title {
+	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.bg-blue {
+	background-color: #effaff;
+}
+
 .top-contact {
 	padding-bottom: 60px;
 }
@@ -1195,10 +1254,20 @@ p {
 	border-bottom: 2px solid #0c2e5a;
 }
 
+.company_inner table.company_table tbody tr th {
+	min-width: 200px;
+	width: 30%;
+}
+
 .company_inner table.company_table tbody tr td {
 	line-height: 1.4;
+	max-width: 250px;
 	padding: 10px 0;
-	width: 200px;
+	width: 70%;
+}
+
+.company_inner table.company_table tbody tr td h1 {
+	font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {
@@ -1273,6 +1342,10 @@ input.wpcf7-text {
 	display: block;
 }
 
+.sp-none {
+	display: none;
+}
+
 .catch-copy {
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
@@ -1316,6 +1389,30 @@ input.wpcf7-text {
 .top-archive__wrapper-item {
 	margin: 0 auto 30px;
 	width: 80%;
+}
+
+.top-greet {
+	display: block;
+}
+
+.top-greet__img {
+	margin: 0 auto;
+	max-width: 350px;
+	width: 50%;
+}
+
+.top-greet__img img {
+	width: 100%;
+}
+
+.top-greet__text {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.top-greet__info {
+	margin: 0 auto;
+	width: 100%;
 }
 
 .top-contact ._container .top-form {

@@ -32,9 +32,9 @@
                     <h1 class="sec-title__jp">Bifreeについて</h1>
                 </div>
                 <div class="top-about_us">
-                    <p class="">
-                    The limited liability company Bifree is a voluntary organization formed on February 22, 2021 by LGBTQ parties and their understanding and supporters, Arai. The members are not only Japanese but also participate from overseas ... It has transformed into such an international organization.<br>
-                    While developing our business, we will continue to strive for a world where more people, not just LGBTQ parties, can be involved and everyone can live in their own way.
+                    <p class="_justify">
+                    A voluntary organization formed on February 22, 2021 was predecessor of The limited liability company Bifree. It is paticipated by LGBTQ people and their allies. The members are not only Japanese but also from overseas. It has transformed into such an international copany.<br>
+                    While developing our business, we will continue to strive for the world wherein more people, not just LGBTQ would be involved but everyone can live in their own way.
                     </p>
                 </div>
                 <!-- <div class="readmore__btn">
@@ -60,8 +60,8 @@
                                     <h3 class="service_title_ja">web production</h3>
                                 </div>
                             </div>
-                            <p class=" top-service__list_p">
-                                I want to further promote the employment of LGBTQ parties ... This business, which I started as an opportunity to do so, is now playing a major role in Bifree. It is a simple but very rewarding task that emphasizes hearing from clients and silently puts it into shape. I am improving my sense of speed and flexibility every day because I am doing it as an organization, not as an individual.
+                            <p class="_justify top-service__list_p">
+                                We want to further promote the employment of LGBTQ people . This business, which we started as an opportunity to do so, is now a major role in Bifree. It is a simple but very rewarding task that we hear from clients and puts it into shape. We have been improving our sense of speed and flexibility every day.
                             </p>
                         </div>
                     </li>
@@ -76,7 +76,7 @@
                                     <h3 class="service_title_ja">media management</h3>
                                 </div>
                             </div>
-                            <p class=" top-service__list_p">
+                            <p class="_justify top-service__list_p">
                                 At "Jalan Jalan Channel," which has nearly 600 registrants, we mainly conduct interviews with LGBTQ parties, and we are creating opportunities for everyone to know that "LGBTQ parties are everywhere, it is a matter of course." increase. RPA technology and Premiere
                                 Mainly editing using Pro. Currently, we do not accept contracted video production projects.
                             </p>
@@ -93,8 +93,8 @@
                                     <h3 class="service_title_ja">lgbt awareness activities</h3>
                                 </div>
                             </div>
-                            <p class=" top-service__list_p">
-                                Bifree donates a part of the profits earned from the activities to LGBTQ-related support groups every month. In addition, if there is a need, we also accept lectures, study sessions, and appearances by the parties concerned, so please let us know. From now on, I would like to convey "not a special existence" to more people.
+                            <p class="_justify top-service__list_p">
+                                Bifree donates a part of the profits earned from the activities to LGBTQ-related support groups every month. In addition, if there is a need, we also accept lectures, study sessions, and appearances by the parties concerned, so please let us know. From now on, we would like to convey "LGBTQ are not special existence" to more people.
                             </p>
                         </div>
                     </li>
@@ -129,9 +129,9 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample5.jpg" alt="">
                         </a>
                     </div>
-                    <div class="top-archive__wrapper-item">
-                        <a href="https://kyouseinet.com/">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample5.jpg" alt="">
+					<div class="top-archive__wrapper-item">
+                        <a href="http://tau-auction.jp/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample06.jpg" alt="">
                         </a>
                     </div>
 
@@ -226,7 +226,7 @@
                             </tr>
                             <tr>
                                 <td>Date of establishment</td>
-                                <td>2021年11月15日</td>
+                                <td>2021/11/15</td>
                             </tr>
                             <tr>
                                 <td>Address</td>
@@ -248,7 +248,7 @@
                             </tr>
                             <tr>
                                 <td>Main Bank</td>
-                                <td>住信SBIネット銀行</td>
+                                <td>SBI Sumishin Net Bank, Ltd.</td>
                             </tr>
                         </tbody>
                     </table>

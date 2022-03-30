@@ -1,11 +1,11 @@
-    <footer>
+<footer>
         <div class="footer">
             <div class="footer_inner _container">
                 <div class="footer_inner_nav">
                     <ul>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#service">SERVICE</a></li>
-                    <li><a href="#article">GREETING</a></li>
+                    <li><a href="#article">ARTICLE</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -16,7 +16,7 @@
                         </a>
                     </div>
                     <div class="footer_inner_sns__text">
-                        <p>SNSアカウントはこちら</p>
+                        <p></p>
                         <span class="arrow"></span>
                     </div>
                     <div class="footer_inner_sns__follow">
@@ -28,8 +28,8 @@
                             <!-- <a href="https://youtube.com/channel/UCOSRAzwBWp-PacFcNTI0oKw">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/youtube_social_squircle_red.png" alt="">
                             </a> -->
-                            <a href="https://github.com/bifree/">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/github-icon.png" alt="">
+							<a href="https://github.com/bifree">
+                                <img src="http://bifree.jp/en/wp-content/uploads/2022/03/github-icon.png" alt="">
                             </a>
                         </div>
                     </div>

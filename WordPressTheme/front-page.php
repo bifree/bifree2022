@@ -28,12 +28,12 @@
         <section class="top-about" id="about">
             <div class="_container">
                 <div class="sec-title sec-title_about">
-                    <h1 class="sec-title__en">ABOUT</h1>
-                    <h1 class="sec-title__jp">Bifreeについて</h1>
+                    <h2 class="sec-title__en">ABOUT</h2>
+                    <h2 class="sec-title__jp">Bifreeについて</h2>
                 </div>
                 <div class="top-about_us">
                     <p class="_justify">
-                        合同会社Bifreeは2021年2月22日、LGBTQ当事者とその理解者・支援者であるアライの人々により結成された任意団体が母体です。メンバーも日本人のみならず、海外から参加をしてくれる…そんなインターナショナルな組織へと変貌も遂げました。<br>事業を展開する中で更に多くのLGBTQ当事者に限らない人々を巻き込み、全ての人がその人らしく生きていける、そんな世界を目指してこの先も邁進していきます。
+                        合同会社Bifreeは2021年2月22日、LGBTQ当事者とその理解者・支援者であるアライの人々により結成された任意団体が母体です。2022年メンバーも日本人のみならず、海外から参加をしてくれる…そんなインターナショナルな組織へと変貌も遂げました。<br>事業を展開する中で更に多くのLGBTQ当事者に限らない人々を巻き込み、全ての人がその人らしく生きていける、そんな世界を目指してこの先も邁進していきます。
                     </p>
                 </div>
                 <!-- <div class="readmore__btn">
@@ -44,8 +44,8 @@
         <section class="top-service" id="service">
             <div class="_container">
                 <div class="sec-title sec-title_about">
-                    <h1 class="sec-title__en">SERVICE</h1>
-                    <h1 class="sec-title__jp">事業内容</h1>
+                    <h2 class="sec-title__en">SERVICE</h2>
+                    <h2 class="sec-title__jp">事業内容</h2>
                 </div>
                 <ul class="top-service_list">
                     <li class="top-service_list_item top-service__list_web">
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                             <p class="_justify top-service__list_p">
-                                登録者数600人に迫る「じゃらんじゃらんちゃんねる」ではLGBTQ当事者へのインタビューをメインに行っており、「LGBTQ当事者はどこにでもいる、当たり前の存在なんだ」とみなさまに知っていただくきっかけ作りを行っています。RPAの技術やPremiere
+                                宣伝・広告活用のための動画編集を行なってまいりました。LGBTQ啓蒙活動にも動画を用いた経験がございます。RPAの技術やPremiere
                                 Proを使っての編集がメインです。現状、動画制作の受託案件は承っておりません。
                             </p>
                         </div>
@@ -130,7 +130,7 @@
                     </div>
                     <div class="top-archive__wrapper-item">
                         <a href="https://kyouseinet.com/">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample5.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample06.jpg" alt="">
                         </a>
                     </div>
 
@@ -155,15 +155,29 @@
         </section>
         <section class="top-article" id="article">
             <div class="sec-title">
-                <h1 class="sec-title__en">
-                    ARTICLE
-                </h1>
+                <h2 class="sec-title__en">
+                    GREETING
+                </h2>
                 <p class="sec-title__jp">
-                    新着記事
+                    代表挨拶
                 </p>
             </div>
             <div class="_container">
-                <p class="bigger _center">ただいま準備中</p>
+                <div class="top-greet">
+                    <div class="top-greet__img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/greet.jpg" alt="合同会社Bifree代表写真">
+                    </div>
+                    <div class="top-greet__text">
+                        <p>「世界のみんなが自由に生きられたらいい」そんな理想は現実とはとても乖離したものです。実際には経済的格差があり、生まれた場所の地理的要因や宗教上の理由等で全ての人が自分の望む自由を手に入れることはできない。だからこそ、私も含め人はみんな自由を夢見て、恋焦がれるのだと思います。<br><br>
+                        LGBTQ当事者も例に漏れず、自由に恋愛したり堂々と自分らしく生活出来ることを望む人が多くいます。しかし閉鎖的な環境や、他者からの目に怯えて、自分らしく振る舞えなかったり、社会にうまく馴染めず経済的に困窮し目の前のことにいっぱいいっぱいな人もいるのです。
+                        私たちBifreeは、そんな彼らの自由のきっかけになりたい。彼らが私たちの活動を見て、勇気を得たり、元気になったり、笑顔になったり（ラジバンダリ）。その笑顔や勇気は、未来へ繋がるアクションや人の輪を呼び集め、きっと彼ら自身の誇りとなるでしょう。誇りの先に自由が、あることを信じて。これからも私たちは、あなたに寄り添います。</p>
+                        <p class="name">CEO　<span class="mincho">相原将希</span></p>
+                    </div>
+                </div>
+                <div class="top-greet__info">
+                    <h3 class="info__title">経歴</h3>
+                    <p>1989年4月20日生まれ。北海道札幌市出身。生後まもなく父の仕事の都合で海外生活がスタート。13年に及ぶ南国（スリランカ、インドネシア）での日々を過ごした。帰国後は海外での生活経験を元に、国際ボランティアやLGBTQ啓蒙の為の活動に少しずつ携わるようになる。国立宇都宮大学農学部、国立小樽商科大学商学部にてそれぞれ農業環境工学と経営学を学ぶ。尊敬する世界の偉人はW.S.Clark博士。座右の銘は「少年よ、大志を抱け」</p>
+                </div>
             </div>
             <!-- <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -200,12 +214,12 @@
         </section>
         <section class="top-contact" id="contact">
             <div class="sec-title sec-title_contact">
-                <h1 class="sec-title__en">
+                <h2 class="sec-title__en">
                     CONTACT
-                </h1>
-                <h1 class="sec-title__jp">
+                </h2>
+                <h2 class="sec-title__jp">
                     お問い合わせ
-                </h1>
+                </h2>
             </div>
             <div class="_container">
                 <p class="_center">仕事依頼、ご質問・ご相談など、<br class="sp-block">お気軽にお問合せください。</p>
@@ -219,24 +233,24 @@
                 <div class="company_inner _flex">
                     <table class="company_table">
                         <tbody>
-                            <tr>
-                                <td>会社名</td>
-                                <td>合同会社Bifree</td>
+                            <tr class="bg-blue">
+                                <th>会社名</th>
+                                <td><h1>合同会社Bifree</h1></td>
                             </tr>
                             <tr>
-                                <td>設立</td>
+                                <th>設立</th>
                                 <td>2021年11月15日</td>
                             </tr>
-                            <tr>
-                                <td>所在地</td>
-                                <td>東京都港区南青山2-2-15　ウィン青山942</td>
+                            <tr class="bg-blue">
+                                <th>所在地</th>
+                                <td>東京都港区南青山2-2-15<br class="sp-none">ウィン青山942</td>
                             </tr>
                             <tr>
-                                <td>代表</td>
-                                <td>相原将希</td>
+                                <th>代表</th>
+                                <td>相原 将希</td>
                             </tr>
-                            <tr>
-                                <td>事業内容</td>
+                            <tr class="bg-blue">
+                                <th>事業内容</th>
                                 <td>
                                     ウェブサイト構築事業<br>
                                     ウェブシステム構築事業<br>
@@ -246,7 +260,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>取引銀行</td>
+                                <th>主要取引企業</th>
+                                <td>DIGI DINOS JOINT STOCK COMPANY（ベトナム）</td>
+                            </tr>
+                            <tr class="bg-blue">
+                                <th>取引銀行</th>
                                 <td>住信SBIネット銀行</td>
                             </tr>
                         </tbody>

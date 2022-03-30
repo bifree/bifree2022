@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
     <meta name="description" content="合同会社Bifree,Bifree,相原将希,LGBTQ,SriLanka,ウェブ制作">
     <meta name="keywords" content="合同会社Bifree,Bifree,相原将希,LGBTQ,SriLanka,ウェブ制作">
 </head>
@@ -19,7 +20,7 @@
             <!-- ヘッダー内ロゴ -->
             <div class="header__logo">
                 <a href="<?php echo home_url(); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bifree_logo_b.svg" alt="ロゴ（横）">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bifree_logo_b.svg" alt="合同会社Bifreeロゴ（横）">
                 </a>
             </div>
             
@@ -35,7 +36,7 @@
                 <ul>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#service">SERVICE</a></li>
-                    <li><a href="#article">ARTICLE</a></li>
+                    <li><a href="#article">GREETING</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>

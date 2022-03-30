@@ -33,6 +33,13 @@ p {
     }
 }
 
+.sp-none {
+    display: block;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
 ._justify {
     text-align: justify;
 }
@@ -265,6 +272,68 @@ p {
     }
 }
 
+.top-greet {
+    display: flex;
+    justify-content: space-around;
+    &__img {
+        width: 50%;
+        max-width: 350px;
+        img {
+            width: 100%;
+        }
+    }
+    &__text {
+        width: 50%;
+        line-height: 1.4;
+        max-width: 500px;
+        p {
+            letter-spacing: 0.1em;
+        }
+        .name {
+            text-align: right;
+            font-size: 20px;
+            .mincho {
+                font-family: 'Zen Antique Soft', serif;
+            }
+        }
+    }
+    &__info {
+        padding-top: 60px;
+        width: 60%;
+        margin: 0 auto;
+        letter-spacing: 0.1em;
+        line-height: 1.4;
+        .info__title {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+    @media screen and (max-width:768px) {
+        display: block;
+        &__img {
+            width: 50%;
+            margin: 0 auto;
+            max-width: 350px;
+            img {
+                width: 100%;
+            }
+        }
+        &__text {
+            width: 100%;
+            margin-top: 20px;
+        }
+        &__info {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.bg-blue {
+    background-color: #effaff;
+}
+
 .top-contact {
     padding-bottom: 60px;
     .sec-title {
@@ -475,10 +544,18 @@ p {
             tbody {
                 tr {
                     border-bottom: 2px solid #0c2e5a;
+                    th {
+                        width: 30%;
+                        min-width: 200px;
+                    }
                     td {
                         line-height: 1.4;
-                        width: 200px;
+                        max-width: 250px;
+                        width: 70%;
                         padding: 10px 0;
+                        h1 {
+                            font-weight: 400;
+                        }
                     }
                 }
             }
