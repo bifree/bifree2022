@@ -153,6 +153,46 @@
                 </div>
             </div>
         </section>
+        <section class="top-sdgs">
+            <div class="top-sdgs__inner">
+                <div class="_container">
+                    <div class="sec-title">
+                        <h2 class="sec-title__en">SPILIT</h2>
+                        <p class="sec-title__jp">
+                            社会へ向けた活動
+                        </p>
+                    </div>
+                    <div class="sdgs">
+                        <h3 class="sdgs__title">
+                            SDGsへの取り組み
+                        </h3>
+                        <div class="sdgs__inner _flex">
+                            <div class="sdgs__inner--left">
+                                <p>「No one will be left behind ： 誰ひとり取り残さない」というSDGsの理念を弊社、Bifreeは支援し実現に向け活動していきます。</p>
+                            </div>
+                            <div class="sdgs__inner--right">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sdgs_5.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sdgs_8.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sdgs_10.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="csr">
+                        <h3 class="sdgs__title">
+                            CSR（企業の社会的責任を果たす）活動
+                        </h3>
+                        <div class="sdgs__inner _flex">
+                            <div class="sdgs__inner--left">
+                                <p>弊社はこの先も誰もが自分らしく生きられる社会を目指し、一歩一歩歩みを進めて参ります。日本国内にとどまらず、海外の国々の人々にも自分らしさを届けられるよう活動範囲の規模を拡大していきます。</p>
+                            </div>
+                            <div class="sdgs__inner--right">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/world_map.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="top-article" id="article">
             <div class="sec-title">
                 <h2 class="sec-title__en">

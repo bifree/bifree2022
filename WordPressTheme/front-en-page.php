@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                             <p class="_justify top-service__list_p">
-                                Bifree donates a part of the profits earned from the activities to LGBTQ-related support groups every month. In addition, if there is a need, we also accept lectures, study sessions, and appearances by the parties concerned, so please let us know. From now on, we would like to convey "LGBTQ are not special existence" to more people.
+                                Bifree donates a part of the profits earned from the activities to LGBTQ-related support groups every month. In addition, if there is a need, we also accept lectures, study sessions, and appearances by the parties concerned, so please let us know. From now on, we would like to convey "LGBTQ are still humans with emotions just like you" to more people.
                             </p>
                         </div>
                     </li>
