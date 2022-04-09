@@ -241,22 +241,37 @@ p {
             }
             .sdgs {
                 margin-bottom: 50px;
+                ._flex {
+                    @media screen and (max-width: 768px) {
+                        display: block;
+                    }
+                }
                 &__title {
                     border-left: 8px solid #45B034;
                     padding-left: 15px;
                     font-size: 28px;
                     margin-bottom: 20px;
+                    @media screen and (max-width: 768px) {
+                        font-size: 20px;
+                    }
                 }
                 &__inner {
                     justify-content: space-between;
                     &--left {
                         width: 47%;
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                        }
                         p {
                             line-height: 1.4;
                         }
                     }
                     &--right {
                         width: 47%;
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                            margin-top: 20px;
+                        }
                         img {
                             width: calc((100% - 100px) / 3);
                         }
@@ -290,6 +305,9 @@ p {
 }
 
 .top-archive {
+    .sec-title__jp {
+        border-bottom: 5px solid #5C4297;
+    }
     &__wrapper {
         display: flex;
         flex-wrap: wrap;

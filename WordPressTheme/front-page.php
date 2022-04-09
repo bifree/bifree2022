@@ -102,6 +102,12 @@
         </section>
         <section class="top-archive">
             <div class="_container">
+                <div class="sec-title">
+                        <h2 class="sec-title__en">WORKS</h2>
+                        <p class="sec-title__jp">
+                            制作実績
+                        </p>
+                    </div>
                 <div class="top-archive__wrapper">
                     <div class="top-archive__wrapper-item">
                         <a href="https://irodori-odori.com/">
@@ -170,7 +176,7 @@
                             <div class="sdgs__inner--left">
                                 <p>「No one will be left behind ： 誰ひとり取り残さない」というSDGsの理念を弊社、Bifreeは支援し実現に向け活動していきます。</p>
                             </div>
-                            <div class="sdgs__inner--right">
+                            <div class="sdgs__inner--right image">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sdgs_5.png" alt="">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sdgs_8.png" alt="">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sdgs_10.png" alt="">
@@ -183,9 +189,9 @@
                         </h3>
                         <div class="sdgs__inner _flex">
                             <div class="sdgs__inner--left">
-                                <p>弊社はこの先も誰もが自分らしく生きられる社会を目指し、一歩一歩歩みを進めて参ります。日本国内にとどまらず、海外の国々の人々にも自分らしさを届けられるよう活動範囲の規模を拡大していきます。</p>
+                                <p>弊社はこの先も誰もが自分らしく生きられる社会を目指し、一歩一歩歩みを進めて参ります。日本国内にとどまらず、海外の人々にも自分らしく過ごせる日々を届けられるよう活動範囲の規模を拡大していきます。</p>
                             </div>
-                            <div class="sdgs__inner--right">
+                            <div class="sdgs__inner--right image">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/world_map.png" alt="">
                             </div>
                         </div>

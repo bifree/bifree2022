@@ -1054,6 +1054,10 @@ p {
 	border-bottom: solid 5px #2A8DDA;
 }
 
+.top-archive .sec-title__jp {
+	border-bottom: 5px solid #5C4297;
+}
+
 .top-archive__wrapper {
 	display: flex;
 	flex-wrap: wrap;
@@ -1426,6 +1430,23 @@ input.wpcf7-text {
 
 .top-about_us {
 	margin: 0 0 100px;
+	width: 100%;
+}
+
+.top-sdgs__inner ._container .sdgs ._flex {
+	display: block;
+}
+
+.top-sdgs__inner ._container .sdgs__title {
+	font-size: 20px;
+}
+
+.top-sdgs__inner ._container .sdgs__inner--left {
+	width: 100%;
+}
+
+.top-sdgs__inner ._container .sdgs__inner--right {
+	margin-top: 20px;
 	width: 100%;
 }
 
