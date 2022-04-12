@@ -259,11 +259,24 @@ p {
                     justify-content: space-between;
                     &--left {
                         width: 47%;
+                        .image_sp {
+                            display: none;
+                            @media screen and (max-width: 768px) {
+                                display: block;
+                            }
+                        }
                         @media screen and (max-width: 768px) {
                             width: 100%;
                         }
                         p {
                             line-height: 1.4;
+                        }
+                        &--bottom {
+                            img {
+                                width: 80%;
+                                margin: 0 auto;
+                                display: block;
+                            }
                         }
                     }
                     &--right {
@@ -276,11 +289,20 @@ p {
                             width: calc((100% - 100px) / 3);
                         }
                     }
+                    .map_image {
+                        display: block;
+                        @media screen and (max-width: 768px) {
+                            display: none;
+                        }
+                    }
                 }
             }
             .csr {
                 .sdgs__inner {
                     flex-direction: row-reverse;
+                    @media screen and (max-width: 768px) {
+                        flex-direction: column-reverse;
+                    }
                     &--right {
                         img {
                             width: 100%;

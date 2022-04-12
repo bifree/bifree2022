@@ -190,8 +190,15 @@
                         <div class="sdgs__inner _flex">
                             <div class="sdgs__inner--left">
                                 <p>弊社はこの先も誰もが自分らしく生きられる社会を目指し、一歩一歩歩みを進めて参ります。日本国内にとどまらず、海外の人々にも自分らしく過ごせる日々を届けられるよう活動範囲の規模を拡大していきます。</p>
+                                <div class="sdgs__inner--right image_sp">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/world_map.png" alt="">
                             </div>
-                            <div class="sdgs__inner--right image">
+                                <div class="sdgs__inner--left--bottom">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/partner.png" alt="">
+                                    <p>弊社は取引先との共存共栄の関係を築き、win-winなパートナーであり続けられるよう努力いたします。</p>
+                                </div>
+                            </div>
+                            <div class="sdgs__inner--right map_image">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/world_map.png" alt="">
                             </div>
                         </div>
