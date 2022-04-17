@@ -1096,6 +1096,21 @@ p {
 	width: 100%;
 }
 
+.top-archive__wrapper-bifee {
+	border: 5px solid #0c2e5a;
+	margin: 50px auto 0;
+	padding: 10px;
+}
+
+.top-archive__wrapper-bifee a {
+	color: #0c2e5a;
+	display: block;
+	text-decoration: none;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
 .top-greet {
 	display: flex;
 	justify-content: space-around;

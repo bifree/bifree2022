@@ -33,7 +33,7 @@
                 </div>
                 <div class="top-about_us">
                     <p class="_justify">
-                        合同会社Bifreeは2021年2月22日、LGBTQ当事者とその理解者・支援者であるアライの人々により結成された任意団体が母体です。2022年メンバーも日本人のみならず、海外から参加をしてくれる…そんなインターナショナルな組織へと変貌も遂げました。<br>事業を展開する中で更に多くのLGBTQ当事者に限らない人々を巻き込み、全ての人がその人らしく生きていける、そんな世界を目指してこの先も邁進していきます。
+                        合同会社Bifreeは2021年2月22日、LGBTQ当事者とその理解者・支援者であるアライの人々により結成された任意団体が母体です。2022年メンバーも日本人のみならず、海外から参加をしてくれる…そんなインターナショナルな組織へと変貌も遂げました。<br>事業を展開する中で更に多くの人々を巻き込み、全ての人がその人らしく生きていける、そんな世界を目指してこの先も邁進していきます。
                     </p>
                 </div>
                 <!-- <div class="readmore__btn">
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                             <p class="_justify top-service__list_p">
-                                宣伝・広告活用のための動画編集を行なってまいりました。LGBTQ啓蒙活動にも動画を用いた経験がございます。RPAの技術やPremiere
+                                宣伝・広告活用のための動画編集を行なってまいりました。RPAの技術やPremiere
                                 Proを使っての編集がメインです。現状、動画制作の受託案件は承っておりません。
                             </p>
                         </div>
@@ -137,6 +137,12 @@
                     <div class="top-archive__wrapper-item">
                         <a href="https://kyouseinet.com/">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample06.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="top-archive__wrapper-bifee">
+                        <a href="http://18.119.152.182/">
+                            アプリ「びふぃー」鋭意開発中！
                         </a>
                     </div>
 
