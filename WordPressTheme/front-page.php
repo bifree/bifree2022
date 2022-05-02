@@ -139,13 +139,24 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample06.jpg" alt="">
                         </a>
                     </div>
+                </div>
 
+                <div class="top-archive__service _flex">
+                    <div class="top-archive__service-logo circle">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/circle_logo.png" alt="">
+                    </div>
+                    <div class="top-archive__service-logo adors">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/adors_logo_pink.png" alt="">
+                    </div>
+                </div>
+
+                <div class="top-archive__app">
                     <div class="top-archive__wrapper-bifee">
                         <a href="http://18.119.152.182/">
                             アプリ「びふぃー」鋭意開発中！
                         </a>
                     </div>
-
+                </div>
                     <!-- <div class="top-archive__wrapper-item">
                         <a href="https://irodori-odori.com/">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sample/sample1.png" alt="">
@@ -162,7 +173,6 @@
                         </a>
                     </div> -->
 
-                </div>
             </div>
         </section>
         <section class="top-sdgs">
@@ -314,7 +324,7 @@
                                     ウェブサイト構築事業<br>
                                     ウェブシステム構築事業<br>
                                     ウェブメディア運営事業<br>
-                                    プログラマ育成事業<br>
+                                    システムエンジニアリングサービス(SES)事業<br>
                                     LGBTQに関する啓蒙活動
                                 </td>
                             </tr>

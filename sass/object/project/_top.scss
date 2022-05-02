@@ -365,6 +365,43 @@ p {
             }
         }
     }
+    &__app {
+        width: 33%;
+        margin: 0 auto;
+        a {
+            text-align: center;
+            margin: 0 auto;
+        }
+        @media screen and (max-width:768px) {
+            width: 100%;
+        }
+    }
+    &__service {
+        justify-content: center;
+        .circle {
+            width: 20%;
+            img {
+                width: 100%;
+            }
+        }
+        .adors {
+            width: 40%;
+            img {
+                width: 100%;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .circle, .adors {
+                margin: 0 auto 30px;
+            }
+            .circle {
+                width: 50%;
+            }
+            .adors {
+                width: 60%;
+            }
+        }
+    }
 }
 
 .top-greet {

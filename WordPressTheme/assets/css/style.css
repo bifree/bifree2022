@@ -1111,6 +1111,36 @@ p {
 	width: fit-content;
 }
 
+.top-archive__app {
+	margin: 0 auto;
+	width: 33%;
+}
+
+.top-archive__app a {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.top-archive__service {
+	justify-content: center;
+}
+
+.top-archive__service .circle {
+	width: 20%;
+}
+
+.top-archive__service .circle img {
+	width: 100%;
+}
+
+.top-archive__service .adors {
+	width: 40%;
+}
+
+.top-archive__service .adors img {
+	width: 100%;
+}
+
 .top-greet {
 	display: flex;
 	justify-content: space-around;
@@ -1494,6 +1524,23 @@ input.wpcf7-text {
 .top-archive__wrapper-item {
 	margin: 0 auto 30px;
 	width: 80%;
+}
+
+.top-archive__app {
+	width: 100%;
+}
+
+.top-archive__service .circle,
+.top-archive__service .adors {
+	margin: 0 auto 30px;
+}
+
+.top-archive__service .circle {
+	width: 50%;
+}
+
+.top-archive__service .adors {
+	width: 60%;
 }
 
 .top-greet {
